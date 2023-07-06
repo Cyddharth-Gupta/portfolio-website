@@ -45,9 +45,9 @@ const Education = () => {
                 scaleY: scrollYProgress, 
             }} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
-                <Details type={'Bachelor Of Science In Computer Science'} time={"2016-2020"} place={'Massachusetts Institute Of Technology (MIT)'} info={"Lorem Ipsum nbsfkjahfka djfhasfasl"}/>
-                <Details type={'Bachelor Of Science In Computer Science'} time={"2016-2020"} place={'Massachusetts Institute Of Technology (MIT)'} info={"Lorem Ipsum nbsfkjahfka djfhasfasl"}/>
-                <Details type={'Bachelor Of Science In Computer Science'} time={"2016-2020"} place={'Massachusetts Institute Of Technology (MIT)'} info={"Lorem Ipsum nbsfkjahfka djfhasfasl"}/>
+                <Details type={'Bachelor Of Technology In Industrial Internet of Things (Regular)'} time={"2021-2025 (expected)"} place={'Guru Gobind Singh Indraprastha University, Delh (GGSIPU)'} info={"CGPA: 9.1 (upto 3rd sem)"}/>
+                <Details type={'Bachelor Of Science In Data Science (Online)'} time={"2021-2025"} place={'Indian Institute of Technology, Madras (IIT, Madras)'} info={""}/>
+                <Details type={'Higher Senior Secondary (12th)'} time={"Graduated with PCM and Biology in 2021"} place={'Gitarattan Jindal Public School, Delhi, India'} info={"Passing Percentage: 90% "}/>
                
             </ul>
         </div>

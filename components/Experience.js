@@ -20,6 +20,7 @@ const Details = ({position, company, companyLink, time, address, work}) => {
             <span className='capitalise font-medium text-dark/75'>
                 {time} | {address}
             </span>
+            <br/>
             <p className='font-medium w-full'>
                 {work}
             </p>
@@ -45,9 +46,10 @@ const Experience = () => {
                 scaleY: scrollYProgress, 
             }} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
-                <Details position={'Software Engineering Intern'} company={'Nessviews'} companyLink={'https://www.nessviews.com'} address={'Chandigarh, India (Remote)'} time={"May, 2023 - Present"} work={"Lorem Ipsum"}/>
-                <Details position={''} company={'V.K. Gupta Cost Accountants'} companyLink={'https://www.nessviews.com'} address={'Delhi, India (Remote)'} time={"May, 2023 - Present"}/>
-                <Details position={''} company={'Explornovate Private Limited'} companyLink={'https://www.nessviews.com'} address={'Delhi, India (Remote)'} time={"May, 2023 - Present"} work={"Lorem Ipsum"}/>
+                <Details position={'Software Engineering Intern'} company={'Nessviews'} companyLink={'https://www.nessviews.com'} address={'Chandigarh, India (Remote)'} time={"May, 2023 - Present"} work="Optimising the vendor panel and building new feature for it such as
+'My Collaborations' which boosted the business by 10X "/>
+                <Details position={'Full Stack Web Developer'} company={'Explornovate Private Limited'} companyLink={'https://www.explornovate.com'} address={'Delhi, India (Remote)'} time={"September, 2022 - April, 2023"} work={""}/>
+                <Details position={'Full Stack Web Developer'} company={'V.K. Gupta Cost Accountants'} companyLink={'/'} address={'Delhi, India (Remote)'} time={"August, 2022 - September, 2022"}/>
             </ul>
         </div>
     </div>
