@@ -28,15 +28,8 @@ const Navbar = () => {
         </nav>
        
         <nav className='flex items-center justify-center flex-wrap'>
-            <MotionLink href={'/'} target='_blank' whileHover={{
-              y: -2
-            }}
-            whileTap={{
-              scale: 0.9
-            }} className='w-6 mr-3'>
-              <TwitterIcon/>
-            </MotionLink>
-            <MotionLink href={'/'} target='_blank' whileHover={{
+            
+            <MotionLink href={'https://github.com/Cyddharth-Gupta'} target='_blank' whileHover={{
               y: -2
             }}
             whileTap={{
@@ -44,7 +37,7 @@ const Navbar = () => {
             }} className='w-6 mx-3'>
               <GithubIcon/>
             </MotionLink>
-            <MotionLink href={'/'} target='_blank' whileHover={{
+            <MotionLink href={'https://www.linkedin.com/in/cyddharth/'} target='_blank' whileHover={{
               y: -2
             }}
             whileTap={{
@@ -52,7 +45,15 @@ const Navbar = () => {
             }} className='w-6 mx-3'>
               <LinkedinIcon/>
             </MotionLink>
-            <MotionLink href={'/'} target='_blank' whileHover={{
+            <MotionLink href={'https://twitter.com/cyddharth_gupta'} target='_blank' whileHover={{
+              y: -2
+            }}
+            whileTap={{
+              scale: 0.9
+            }} className='w-6 mr-3'>
+              <TwitterIcon/>
+            </MotionLink>
+            {/* <MotionLink href={'/'} target='_blank' whileHover={{
               y: -2
             }}
             whileTap={{
@@ -67,7 +68,7 @@ const Navbar = () => {
               scale: 0.9
             }} className='w-6 ml-3'>
               <DribbbleIcon/>
-            </MotionLink>
+            </MotionLink> */}
         </nav>
         <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
           <Logo />
