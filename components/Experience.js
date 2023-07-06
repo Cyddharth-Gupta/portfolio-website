@@ -46,8 +46,8 @@ const Experience = () => {
             }} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details position={'Software Engineering Intern'} company={'Nessviews'} companyLink={'https://www.nessviews.com'} address={'Chandigarh, India (Remote)'} time={"May, 2023 - Present"} work={"Lorem Ipsum"}/>
-                <Details position={'Software Engineering Intern'} company={'Nessviews'} companyLink={'https://www.nessviews.com'} address={'Chandigarh, India (Remote)'} time={"May, 2023 - Present"}/>
-                <Details position={'Software Engineering Intern'} company={'Nessviews'} companyLink={'https://www.nessviews.com'} address={'Chandigarh, India (Remote)'} time={"May, 2023 - Present"} work={"Lorem Ipsum"}/>
+                <Details position={''} company={'V.K. Gupta Cost Accountants'} companyLink={'https://www.nessviews.com'} address={'Delhi, India (Remote)'} time={"May, 2023 - Present"}/>
+                <Details position={''} company={'Explornovate Private Limited'} companyLink={'https://www.nessviews.com'} address={'Delhi, India (Remote)'} time={"May, 2023 - Present"} work={"Lorem Ipsum"}/>
             </ul>
         </div>
     </div>
