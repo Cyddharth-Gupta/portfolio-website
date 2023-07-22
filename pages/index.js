@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <TransitionEffect/>
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
-        <Layout className='pt-0'>
+        <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/2'>
               <Image src={profilePic} alt="Siddharth's profile pic" className='ml-16' priority
