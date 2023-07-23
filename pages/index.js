@@ -17,14 +17,14 @@ export default function Home() {
       </Head>
       <TransitionEffect/>
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
-        <Layout className='pt-0 md:pt-16 sm:pt-8'>
+        <Layout className='pt-0 md:pt-16 sm:pt-8 '>
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/2'>
               <Image src={profilePic} alt="Siddharth's profile pic" className='ml-16' priority
               sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw'/>
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
-              <AnimatedText className='!text-6xl !text-left' text="Turning Vision Into Reality With Code And Design."/>
+              <AnimatedText className='!text-6xl !text-left xl:!text-5xl lg:!text-center' text="Turning Vision Into Reality With Code And Design."/>
               <p className='my-4 text-base font-medium'>As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
 Explore my website and projects, showcasing my expertise in React.js and web development.</p>
             <div className='flex item-center self-start mt-0'>
