@@ -5,6 +5,7 @@ import { useRouter } from 'next/router'
 import {DribbbleIcon, GithubIcon, LinkedinIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon} from './Icons'
 import { motion } from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
+import Image from 'next/image'
 
 const MotionLink = motion(Link)
 
@@ -140,6 +141,7 @@ const Navbar = () => {
             whileTap={{
               scale: 0.9
             }}>
+              <Image src={"../public/Devfolio.png"}/>
               <LinkedinIcon/>
             </MotionLink>
             <MotionLink href={'https://github.com/Cyddharth-Gupta'} target='_blank' className = {'w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'} whileHover={{
