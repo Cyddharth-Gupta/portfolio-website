@@ -141,7 +141,9 @@ const Navbar = () => {
             whileTap={{
               scale: 0.9
             }}>
-              <Image src={"../public/Devfolio.png"}/>
+              <Image src="../public/Devfolio.png"  width={500}
+      height={500}
+      alt="Picture of the devfolio"/>
               <LinkedinIcon/>
             </MotionLink>
             <MotionLink href={'https://github.com/Cyddharth-Gupta'} target='_blank' className = {'w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'} whileHover={{
