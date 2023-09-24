@@ -135,15 +135,14 @@ const Navbar = () => {
           </nav>
        
           <nav className='flex items-center justify-center flex-wrap mt-2'>
+          <img src="../public/Devfolio.png"  ></img>
             <MotionLink href={'https://www.linkedin.com/in/cyddharth/'} target='_blank' className = {'w-6 mr-3 sm:mx-1'} whileHover={{
               y: -2
             }}
             whileTap={{
               scale: 0.9
             }}>
-              <Image src="../public/Devfolio.png"  width={500}
-      height={500}
-      alt="Picture of the devfolio"/>
+              
               <LinkedinIcon/>
             </MotionLink>
             <MotionLink href={'https://github.com/Cyddharth-Gupta'} target='_blank' className = {'w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'} whileHover={{
